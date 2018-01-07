@@ -1,0 +1,11 @@
+#lamp {
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: yellow;
+}
+
+.center {
+    text-align: center;
+    margin: 30px auto;
+}

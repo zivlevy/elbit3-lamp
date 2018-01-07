@@ -1,0 +1,9 @@
+<h1 class="center">
+    My Lamp
+</h1>
+<div id="lamp" class="center" [ngStyle]="{'opacity':lampData/100}"></div>
+
+<div class="center">
+    <input #lamp type="range" min="0" max="100" class="center" (input)="setLampData(lamp.value)" [value]="lampData">
+</div>
+
